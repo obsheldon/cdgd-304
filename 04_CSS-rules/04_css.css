@@ -1,0 +1,36 @@
+p{ font-family: geogrotesque light ;
+color: light blue ;
+background-color: gray;
+font-size: 14 px ;
+line-height: 20 px;
+}
+
+h1 { font-family: geogrotesque ;
+font-weight: bold ;
+color: pink ;
+background-color: gray ;
+font-size: 30px ;
+}
+
+h2 { font-family: geogrotesque ;
+font-weight: bold ;
+color: pink ;
+background-color: gray;
+font-size: 20 px ;
+}
+
+a:link { font-family: geogrotesque ;
+color: skyblue; }
+
+a:hover { color: olivedrab;
+font-weight: bold ; }
+
+th { font-family: geogrotesque ;}
+tr { font-family: geogrotesque ;}
+
+legend { font-family: geogrotesque ; }
+label { font-family: geogrotesque ; }
+
+h3 { font-family: geogrotesque ;}
+
+li { font-family: geogrotesque ; }
