@@ -1,0 +1,225 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+    
+<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Mono|PT+Serif" rel="stylesheet">
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: "PT Mono";
+	line-height: 1.88889;
+	color: slategray; 
+	margin: ; 
+	padding: ;
+	}
+p { 
+    margin-left: 300px; 
+	text-align: justify;
+    width: 600px;
+    
+	}
+h1 { 
+	font-family: "Oswald";
+	letter-spacing: 3px;  
+	color: yellow;
+	}
+h2 {
+    font-family: "Oswald" ;
+}
+
+.preamble{
+    margin-top: 200px;
+    
+}
+h3 {
+    font-family: "Oswald";
+    margin-top: 20px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: gray;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: bold; 
+	color: yellow;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: ; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+    font-size: 120px;
+    text-transform: uppercase;
+	margin-top: 10px;
+    margin-bottom; 40px;
+	display: block;
+	width: 219px;
+	height: 100px;
+
+	text-indent: 24% ;
+	white-space: nowrap;
+	
+	}
+header h2 { 
+    font-size: 40px;
+	background: ; 
+	margin-top: 20px; 
+	margin-bottom:20px; 
+	width: 50px; 
+	height: 18px; 
+	
+    font-family: "Oswald";
+    text-transform: uppercase;
+
+	text-indent: 24%;
+	white-space: nowrap;
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 20px ; 
+	width: 100px; 
+    color:yellow;
+   
+	}
+.summary p {
+    font-family: "PT Mono" ;
+	font-size: 12px;
+    margin: 20px 20px 20px 20px;
+	text-align: right;
+    width: 205px;
+    background-color: lightgrey;
+    padding: 20px 20px 20px 20px;
+    float: left;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+    font-weight: bold;
+    color: slategray;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font: 10px "Pt Mono"; 
+	background: lightgray ; 
+	padding: 20px; 
+	margin-top: 150px; 
+	width: 130px; 
+	}
+.sidebar h3.select { 
+	background: ; 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives { 
+	background: ; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	background: ; 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+    font-family: "Oswald"
+	line-height: 1.3em; 
+	background: ; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: yellow;
+	}
+.sidebar li a:visited {
+	color: blue;
+	}
+
+
+.extra1 {
+	background:; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
