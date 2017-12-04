@@ -1,0 +1,72 @@
+p {
+    font-family: 'Mr Eaves San OT', sans-serif;
+    color: #000;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'MrsEaves', serif;
+    color: #485A76;
+    font-size: 26px;
+}
+
+.A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.B {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.B a:link{
+    font-family: 'MrsEaves', serif;
+    font-size: 22px;
+    color: #909C9D;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #485A76;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h3{
+    color: #fff;
+    font-family: 'MrsEaves', serif;
+    font-size: 20px;
+}
+
+h4{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'MrsEaves', serif;
+}
