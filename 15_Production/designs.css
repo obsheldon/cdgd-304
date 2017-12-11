@@ -89,33 +89,40 @@ h4{
     color: #FFF;
 }
 
+
+
 /* --------------------CONTENT CSS-------------------- */
 
-.Interior_design_sketch {
+#Designs_full {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 475px 30px 450px;
+    grid-template-rows: 50px 100px 1030px 50px 70px 1030px 50px 100px 1050px;
     grid-template-areas:
-        "photo photo"
-        "title ."
-        "body_text body_text";
-    margin: 0px 300px;
+        "Design_t1"
+        "info1"
+        "images1"
+        "Design_t2"
+        "info2"
+        "images2"
+        "Design_t3"
+        "info3"
+        "images3";
+    margin: 50px 300px;
 }
 
-#sketch{
-    grid-area: photo;
-    width: 100%;
-    
+#design_t1 {
+    grid-area: Design_t1;
 }
 
-.info h2{
-    grid-area: title;
-    margin-top: 50px;
-    
+#info1 {
+    grid-area: info1;
 }
 
-.info p{
-    grid-area: body_text;
+#images1 {
+    grid-area: images1;
+}
+
+#Design_t2 {
+    grid-area: Design_t2;
 }
 
 /* --------------------FOOTER CSS-------------------- */

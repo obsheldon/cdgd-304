@@ -89,33 +89,46 @@ h4{
     color: #FFF;
 }
 
+
 /* --------------------CONTENT CSS-------------------- */
 
-.Interior_design_sketch {
+#full_service {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 475px 30px 450px;
+    grid-template-rows: 45px 275px 45px 250px 45px 200px;
     grid-template-areas:
-        "photo photo"
-        "title ."
-        "body_text body_text";
-    margin: 0px 300px;
+        "title1"
+        "info1"
+        "title2"
+        "info2"
+        "title3"
+        "info3";
+    margin: 50px 300px;
 }
 
-#sketch{
-    grid-area: photo;
-    width: 100%;
+#fsi{
+    grid-area: title1;
     
 }
 
-.info h2{
-    grid-area: title;
-    margin-top: 50px;
+#about_fsi{
+    grid-area: info1;
     
 }
 
-.info p{
-    grid-area: body_text;
+#full_arc{
+    grid-area: title2;
+}
+
+#about_full{
+    grid-area: info2;
+}
+
+#customf{
+    grid-area: title3;
+}
+
+#about_custom{
+    grid-area: info3;
 }
 
 /* --------------------FOOTER CSS-------------------- */

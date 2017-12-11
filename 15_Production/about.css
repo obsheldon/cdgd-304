@@ -5,7 +5,7 @@ p {
     color: #000;
     line-height: 26px;
     font-size: 22px;
-    font-weight: 300;ß
+    font-weight: 300;
 }
 
 a{
@@ -91,31 +91,34 @@ h4{
 
 /* --------------------CONTENT CSS-------------------- */
 
-.Interior_design_sketch {
+#about {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 475px 30px 450px;
+    grid-template-rows: 45px 150px 45px 200px;
     grid-template-areas:
-        "photo photo"
-        "title ."
-        "body_text body_text";
-    margin: 0px 300px;
+        "title1"
+        "info1"
+        "title2"
+        "info2";
+    margin: 50px 300px;
 }
 
-#sketch{
-    grid-area: photo;
+#je{
+    grid-area: title1;
     width: 100%;
     
 }
 
-.info h2{
-    grid-area: title;
-    margin-top: 50px;
+#about_je{
+    grid-area: info1;
     
 }
 
-.info p{
-    grid-area: body_text;
+#part{
+    grid-area: title2;
+}
+
+#about_part{
+    grid-area: info2;
 }
 
 /* --------------------FOOTER CSS-------------------- */
